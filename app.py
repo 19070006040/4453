@@ -10,7 +10,12 @@ def hello():
 @app.route('/hello2')
 def hello2():
     
-    return "Hello World"
+    return "Hello World2"
+
+@app.route('/hello3')
+def hello3():
+    
+    return "Hello World3"
 
 if __name__ == '__main__':
     app.run(debug=True)
