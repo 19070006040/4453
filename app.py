@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route('/hello')
 def hello():
-    data = get_data_from_database()
-    return f'Hello, World! Here is some data from the database: {data}'
+    
+    return "Hello World"
 
 if __name__ == '__main__':
     app.run(debug=True)
