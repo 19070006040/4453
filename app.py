@@ -12,6 +12,7 @@ def hello2():
     
     return "Hello World2"
 
+# Merged HelloWorld3
 @app.route('/hello3')
 def hello3():
     
