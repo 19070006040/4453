@@ -44,4 +44,4 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: Se4453-app  # Replace with your App Service name
-        images: 4453acr.azurecr.io/app:latest
+        images: 4453acr.azurecr.io/app:latest 
